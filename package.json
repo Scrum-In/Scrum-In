@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "express": "^4.16.2",
+    "pg": "^7.4.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "redux": "^3.7.2"
