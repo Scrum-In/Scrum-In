@@ -3,6 +3,8 @@ const io = require('socket.io')();
 const path = require('path');
 const pool = require('./db');
 
+require('dotenv').config();
+
 const app = express();
 
 pool.connect();
