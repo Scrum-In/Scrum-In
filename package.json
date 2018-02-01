@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -w",
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "start-dev": "webpack-dev-server"
   },
   "author": "",
@@ -26,9 +26,19 @@
     "webpack-dev-server": "^2.11.1"
   },
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "css-loader": "^0.28.9",
     "express": "^4.16.2",
+    "less-loader": "^4.0.5",
+    "material-ui": "^0.20.0",
+    "nodemon": "^1.14.11",
+    "path": "^0.12.7",
     "react": "^16.2.0",
+    "react-cookies": "^0.1.0",
     "react-dom": "^16.2.0",
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "request": "^2.83.0",
+    "style-loader": "^0.20.1"
   }
 }

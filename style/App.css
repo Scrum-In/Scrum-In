@@ -1,0 +1,51 @@
+
+h1 {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 55px;
+}
+
+#chip {
+  padding: 0px 120px 0px 120px;
+}
+
+#board {
+  padding-top: 220px
+}
+
+#board1 {
+  width: 330px; 
+  height: 380px;
+  padding-right: 25px;
+  padding-left: 50px;
+  float: left
+}
+
+#board2 {
+  width: 330px; 
+  height: 380px;
+  padding-right: 25px;
+  float: left
+}
+
+#board3 {
+  width: 330px; 
+  height: 380px;
+  padding-right: 25px;
+  float: left
+}
+
+#board4 {
+  width: 330px; 
+  height: 380px;
+  padding-right: 25px;
+  float: left
+}
+
+#bar {
+  margin: 80px
+}
+
+#progress {
+  text-align: center
+}
