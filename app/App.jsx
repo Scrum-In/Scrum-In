@@ -31,6 +31,14 @@ class App extends Component {
     this.addTasks = this.addTasks.bind(this);
   }
 
+  componentDidMount() {
+    // subscribeToTimer((err, timestamp) => {
+    //   this.setState({
+    //     timestamp,
+    //   });
+    // });
+  }
+
   addTasks(type, task) {
     // for (let key in this.state.tasks) {
     //   if (key === type) {
