@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from "react";
 import cookie from 'react-cookies';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
@@ -106,5 +107,24 @@ class App extends Component {
     )
   }
  }
+=======
+import React, {Component} from "react";
+// import pool from '../back-end/db';
+
+
+// const App = () => {
+// 	return <h1>hello world</h1>
+// }
+
+class App extends Component {
+	componentDidMount() {
+
+	}
+	render() {
+		return <h1>hello world!!!!!!</h1>
+	}
+}
+
+>>>>>>> e4c7d4910c871d841a88852ba026901f6367354e
 
 export default App;

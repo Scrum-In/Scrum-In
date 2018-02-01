@@ -1,11 +1,12 @@
 const app = require('express')();
 const express = require('express');
 const http = require('http').Server(app);
-const keys = require('./keys');
+const keys = require('../keys');
 const request = require('request');
 const path = require('path');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
+const pool = require('./db');
 
 app.use(express.static(path.join(__dirname, 'build')));
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -58,6 +59,10 @@ app.get('/auth', (req, res) => {
   })
 })
 
-app.listen(8080, () => {
-  console.log('server is listening on 8080')
-})
+// app.listen(8080, () => {
+//   console.log('server is listening on 8080')
+// })
+
+app.listen(3000, () => {
+  console.log('listening on port 3000');
+});
