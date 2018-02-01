@@ -1,11 +1,11 @@
 const express = require('express');
-const app = express();
 const path = require('path');
 const pool = require('./db');
 
+const app = express();
+
 pool.connect();
 // const http = require('http').Server(app);
-
 
 // app.get('/', (req, res) => {
 //   res.send('<h1>Hello World</h1>');
