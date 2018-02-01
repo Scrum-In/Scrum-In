@@ -14,7 +14,7 @@ pool.connect();
 // app.get('/', (req, res) => {
 //   res.send('<h1>Hello World</h1>');
 // });
-app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.static(path.join(__dirname, '../build')));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 
@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
   } else {
     console.log('redirected');
     //can clear cookie using setTimeout maybe after certain minutes?
-    res.sendFile(path.join(__dirname, '/build/index.html'));
+    res.sendFile(path.join(__dirname, '../build/index.html'));
   }
 });
 
@@ -34,7 +34,7 @@ app.get('/login', (req, res) => {
   //   res.redirect('/')
   // }
   // else {
-  res.sendFile('signIn.html', { root: path.join(__dirname, './app') });
+  res.sendFile('signIn.html', { root: path.join(__dirname, '../app') });
   // }
 });
 

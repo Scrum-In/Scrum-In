@@ -8,7 +8,7 @@ const HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
 });
 
 module.exports = {
-  entry: path.join(__dirname, '/app/index.js'),
+  entry: path.join(__dirname, '/app/index.jsx'),
   module: {
     rules: [
       {
