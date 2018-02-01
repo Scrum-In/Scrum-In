@@ -1,4 +1,5 @@
 const express = require('express');
+require('dotenv').config();
 const io = require('socket.io')();
 const request = require('request');
 const path = require('path');
@@ -6,7 +7,6 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const pool = require('./db');
 
-require('dotenv').config();
 
 const app = express();
 
